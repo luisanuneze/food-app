@@ -17,5 +17,7 @@ export default {}
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
 }
 </style>
