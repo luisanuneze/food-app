@@ -1548,6 +1548,20 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vuelidate/core@^2.0.0-alpha.17":
+  version "2.0.0-alpha.17"
+  resolved "https://registry.yarnpkg.com/@vuelidate/core/-/core-2.0.0-alpha.17.tgz#f643255d70e9f6e70cd0401ec892c8a6314593cc"
+  integrity sha512-eVxJsZvgM053V5yhixK/Ja0jztpb+RKuWNHLGMqIEqWqXC6+UuezVpqsMoEGO+Jm2zvM9ZrGmdWjm1OOlAQlig==
+  dependencies:
+    vue-demi "^0.6.0"
+
+"@vuelidate/validators@^2.0.0-alpha.14":
+  version "2.0.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/@vuelidate/validators/-/validators-2.0.0-alpha.14.tgz#ad357785d3d718b68ed569dac66b711f64cc117b"
+  integrity sha512-oKWtyiRR7MGwVXIp8zLk6dd+XaHMvwlBEutjC7kyflz4EceCUEOnw8FjTY6jVQ9JT2ZsL3VxFDx25LzptmP0Gg==
+  dependencies:
+    vue-demi "^0.6.0"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -8478,6 +8492,11 @@ vue-client-only@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
+
+vue-demi@^0.6.0:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.6.2.tgz#ed9633eaa69b7409cc6e8328e8a6c3d31ab39319"
+  integrity sha512-4KfwxbqsZcDz7UryD11oHa6FLK9Gzx4MIwAEcP37IbUdXuF6DHg2w9L5Zv5t+FNqsuAjEQ2NnGVIZ3u71y435Q==
 
 vue-eslint-parser@^7.1.1, vue-eslint-parser@^7.6.0:
   version "7.6.0"
