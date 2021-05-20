@@ -39,18 +39,11 @@
       </section>
 
       <AppEmptyCart v-else />
-
-      <script src="https://js.stripe.com/v3/"></script>
-      <script charset="utf-8">
-        var stripe = Stripe(
-          'pk_test_51ItEfnBjTD3GmzG9oqSFqdwPHFxKe4tbHbQDC2liBgUrzT5HbqFUCODllaThkwhSGpbdzQTfa3uFMI1ib3MCSykg00guhO8DNi'
-        )
-      </script>
     </body>
   </main>
 </template>
 
-<scrip>
+<script>
 import AppEmptyCart from '@/components/AppEmptyCart.vue'
 
 export default {
@@ -66,6 +59,6 @@ export default {
     },
   },
 }
-</scrip>
+</script>
 
 <style lang="scss" scoped></style>
